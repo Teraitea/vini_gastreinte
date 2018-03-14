@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -15,5 +14,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TypesAstreintesTableSeeder::class);
         $this->call(AstreintesTableSeeder::class);
         $this->call(TypesAgentsTableSeeder::class);
+        $this->call(EtatsTableSeeder::class);
     }
 }

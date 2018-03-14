@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Astreinte;
+use App\User;
 use Illuminate\Http\Request;
 
 class AstreinteController extends Controller
@@ -14,7 +15,9 @@ class AstreinteController extends Controller
      */
     public function index()
     {
-        //
+        $astreintes = Astreinte::all();
+        $astreintes = Astreinte::with('username')->get();
+        return view('astreintes.liste-des-astreintes',compact('astreintes'));
     }
 
     /**

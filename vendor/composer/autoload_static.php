@@ -314,14 +314,11 @@ class ComposerStaticInit2a514fbd0619f6cfb517d91359bb3df3
     );
 
     public static $classMap = array (
-        'AgentsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/AgentsTableSeeder.php',
-        'App\\Agent' => __DIR__ . '/../..' . '/app/Agent.php',
         'App\\Astreinte' => __DIR__ . '/../..' . '/app/Astreinte.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Etat' => __DIR__ . '/../..' . '/app/Etat.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\HistoModif' => __DIR__ . '/../..' . '/app/HistoModif.php',
-        'App\\Http\\Controllers\\AgentController' => __DIR__ . '/../..' . '/app/Http/Controllers/AgentController.php',
         'App\\Http\\Controllers\\AstreinteController' => __DIR__ . '/../..' . '/app/Http/Controllers/AstreinteController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -329,6 +326,7 @@ class ComposerStaticInit2a514fbd0619f6cfb517d91359bb3df3
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\EtatController' => __DIR__ . '/../..' . '/app/Http/Controllers/EtatController.php',
+        'App\\Http\\Controllers\\HistoModifController' => __DIR__ . '/../..' . '/app/Http/Controllers/HistoModifController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\TypesAgentController' => __DIR__ . '/../..' . '/app/Http/Controllers/TypesAgentController.php',
         'App\\Http\\Controllers\\TypesAstreinteController' => __DIR__ . '/../..' . '/app/Http/Controllers/TypesAstreinteController.php',
@@ -461,6 +459,7 @@ class ComposerStaticInit2a514fbd0619f6cfb517d91359bb3df3
         'Egulias\\EmailValidator\\Warning\\QuotedString' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/QuotedString.php',
         'Egulias\\EmailValidator\\Warning\\TLD' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/TLD.php',
         'Egulias\\EmailValidator\\Warning\\Warning' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/Warning.php',
+        'EtatsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/EtatsTableSeeder.php',
         'Faker\\Calculator\\Iban' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
         'Faker\\Calculator\\Inn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',
         'Faker\\Calculator\\Luhn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Luhn.php',

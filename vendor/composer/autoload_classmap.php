@@ -6,14 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AgentsTableSeeder' => $baseDir . '/database/seeds/AgentsTableSeeder.php',
-    'App\\Agent' => $baseDir . '/app/Agent.php',
     'App\\Astreinte' => $baseDir . '/app/Astreinte.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Etat' => $baseDir . '/app/Etat.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\HistoModif' => $baseDir . '/app/HistoModif.php',
-    'App\\Http\\Controllers\\AgentController' => $baseDir . '/app/Http/Controllers/AgentController.php',
     'App\\Http\\Controllers\\AstreinteController' => $baseDir . '/app/Http/Controllers/AstreinteController.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
@@ -21,6 +18,7 @@ return array(
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\EtatController' => $baseDir . '/app/Http/Controllers/EtatController.php',
+    'App\\Http\\Controllers\\HistoModifController' => $baseDir . '/app/Http/Controllers/HistoModifController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\TypesAgentController' => $baseDir . '/app/Http/Controllers/TypesAgentController.php',
     'App\\Http\\Controllers\\TypesAstreinteController' => $baseDir . '/app/Http/Controllers/TypesAstreinteController.php',
@@ -153,6 +151,7 @@ return array(
     'Egulias\\EmailValidator\\Warning\\QuotedString' => $vendorDir . '/egulias/email-validator/EmailValidator/Warning/QuotedString.php',
     'Egulias\\EmailValidator\\Warning\\TLD' => $vendorDir . '/egulias/email-validator/EmailValidator/Warning/TLD.php',
     'Egulias\\EmailValidator\\Warning\\Warning' => $vendorDir . '/egulias/email-validator/EmailValidator/Warning/Warning.php',
+    'EtatsTableSeeder' => $baseDir . '/database/seeds/EtatsTableSeeder.php',
     'Faker\\Calculator\\Iban' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
     'Faker\\Calculator\\Inn' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',
     'Faker\\Calculator\\Luhn' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Luhn.php',
